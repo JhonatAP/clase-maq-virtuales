@@ -1,0 +1,31 @@
+Q-
+Porque un lenguaje de programacion solo puede utilizarse en algunos
+sistemas operativos y en otros no?
+A-
+Por las diferencias en la arquitectura del sistema, el entorno de
+ejecucion, las bibliotecas disponibles y la compatibilidad.
+Q-
+Que tipo de maquina virtual soporta virtualBox?
+A-
+GNU/Linux, Mac OS X, OS/2 Warp, Microsoft Windows, y Solaris/Open
+Solaris, y dentro de ellos es posible virtualizar los sistemas 
+operativos FreeBSD, GNU/Linux, OpenBSD, OS/2 Warp, Solaris, MS-DOS
+y muchos otros.
+Q-
+Que funcion cumple el hypervisor en la virtualizacion?
+A-
+Actua como la pataforma para maquinas virtuales. Proporciona la
+division necesaria entre el sistema operativo de la maquina
+virtual y el hardware de la maquina host.
+Q-
+Si tengo mas de una maquina virtual instalada, y una se rompe,
+esto afecta a las demas? Por que?
+A-
+Como tal no deberia afectar, porque las maquinas virtuales estan
+aisladas entre si y se ejecutan de manera independiente en sus
+propios entornos virtuales. Pero por una mala gestion de recursos
+o mala configuracion podria afectar el rendimiento de las demas 
+maquinas virtuales.
+Tambien podria deberse a una vulnerabilidad en el hypervisor, podria
+crear un riesgo potencial de que otras maquinas virtuales tambien se
+vean comprometidas.
